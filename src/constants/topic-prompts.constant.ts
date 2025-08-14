@@ -2,16 +2,16 @@ import { TopicPromptType } from '../commons/types';
 
 export const textOnlyTopicPrompts: TopicPromptType[] = [
   {
-    topic: 'Backend Engineering',
-    userProfession: 'Backend Engineer',
+    topic: 'Epstien Files',
+    userProfession: 'political journalist',
     prompt:
-      "Craft a short tweet about Backend Engineering. Share a compelling insight, tip, fact, or opinion in less than 250 characters. Don't enclose the content in quotation marks and don't use emojis and hashtags.",
+      "Craft a post about the epstien files. Share any insight, tip, fact, or opinion in less than 250 characters. Don't enclose the content in quotation marks and don't use emojis and hashtags.",
   },
   {
-    topic: 'Database Administration',
-    userProfession: 'Database Administrator',
+    topic: 'American Politics',
+    userProfession: 'Political Journalist',
     prompt:
-      "Craft a short tweet about Database Administration. Share a compelling insight, tip, fact, or opinion in less than 250 characters. Don't enclose the content in quotation marks and don't use emojis and hashtags.",
+      "Craft a short tweet about the downfall of american culture. Share a compelling insight, tip, fact, or opinion in less than 250 characters. Don't enclose the content in quotation marks and don't use emojis and hashtags.",
   },
   {
     topic: 'SQL',
@@ -20,9 +20,9 @@ export const textOnlyTopicPrompts: TopicPromptType[] = [
       "Craft a short tweet about SQL. Share a compelling insight, tip, fact, or opinion in less than 250 characters. Don't enclose the content in quotation marks and don't use emojis and hashtags.",
   },
   {
-    topic: 'API Security',
+    topic: 'Donald Trump sucks',
     userProfession: 'NodeJs Backend Engineer',
-    prompt: `Craft a short tweet about API Security. Share a compelling insight, tip, fact, or opinion in less than 250 characters. Don't enclose the content in quotation marks and don't use emojis and hashtags.`,
+    prompt: `Craft a short tweet about how donald trump sucks.Share a compelling insight, tip, fact, or opinion in less than 250 characters. Don't enclose the content in quotation marks and don't use emojis and hashtags.`,
   },
 ];
 
